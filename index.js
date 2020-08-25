@@ -1,6 +1,6 @@
 const app = require('express')();
 const axios = require('axios');
-const baseURL = 'https://swapi.co/api/';
+const baseURL = 'https://swapi.dev/api/';
 
 const getFilmId = (url) => {
     const id = url.split('/')[5];
